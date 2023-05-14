@@ -28,11 +28,7 @@ class Teacher:
 
 
 
-Tr_1 = Teacher("HARON MURUMBA", "HOD", "SCIENCES", "BIO AND CHEM", "5", "lab")
-
-print(f"Mr {self.name} is {self.position} {self.department}teaching {self.subject},
-		with an experience of {self.experience}
-		 and mostly you will find the {self.office}\n")
-print(Tr_1.station)
-print(Tr_1.teach(5))
-
+Tr_1 = Teacher("HARON MURUMBA", "HOD", "SCIENCES", "BIO AND CHEM", 5, "lab\n")
+print(f"My name is {Tr_1.name} and iam {Tr_1.position} {Tr_1.department} at \
+Gikuni secondary school teachig {Tr_1.subject} for the last \
+{Tr_1.experience} years and my office is in the school {Tr_1.office}")
