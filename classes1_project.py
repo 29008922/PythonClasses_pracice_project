@@ -45,3 +45,10 @@ print(f"Her name is {Tr_2.name} and she is {Tr_2.position} at Gikuni secondary\
 
 print(Tr_2.station)
 print(Tr_2.teach(20))
+
+Tr_3 = Teacher('Jared O', 'HOD scout', 'SCIENCES', 'MATHEMATICS', 4, 'LAB OFFICE')
+print(f"my name is {Tr_3.name})and iam {Tr_3.position} {Tr_3.department} at \
+        Gikuni secondary school Teaching {Tr_3.subject}for the last \
+        {Tr_3.experience} years and my office is {Tr_3.office}")
+print(Tr_3.station)
+print(Tr_3.teach(4))
